@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map</title>
+</head>
+<body style="margin: 0;">
+   <h1>沒有完成</h1>
+  <div style="display:flex">
+    <div id="map" style="width:50%; height: 100vh;"></div>
+    <div></div>
+  </div>
+ 
+<script>
+  let map;
+
+  function initMap(){
+    map=new google.maps.Map(document.getElementById('map'),{
+      center:{lat:25.021350,lng:121.254860},
+      zoom:7,
+    });
+  }
+</script>
+
+
+
+
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWsER5H3y5I-zGtbmqBjrPu_CPc2fj3uM&libraries=places&callback=initMap">
+  </script>
+  
+
+ 
+  
+</body>
+</html>
